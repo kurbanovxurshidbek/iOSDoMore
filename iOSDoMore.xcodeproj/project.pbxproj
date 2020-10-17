@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		AE05A1BB253AB1250003A101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE05A1BA253AB1250003A101 /* AppDelegate.swift */; };
 		AE05A1BD253AB1250003A101 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE05A1BC253AB1250003A101 /* SceneDelegate.swift */; };
-		AE05A1BF253AB1250003A101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE05A1BE253AB1250003A101 /* ViewController.swift */; };
 		AE05A1C2253AB1250003A101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE05A1C0253AB1250003A101 /* Main.storyboard */; };
 		AE05A1C5253AB1250003A101 /* iOSDoMore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE05A1C3253AB1250003A101 /* iOSDoMore.xcdatamodeld */; };
 		AE05A1C7253AB1290003A101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE05A1C6253AB1290003A101 /* Assets.xcassets */; };
 		AE05A1CA253AB1290003A101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE05A1C8253AB1290003A101 /* LaunchScreen.storyboard */; };
 		AE05A1D5253AB12A0003A101 /* iOSDoMoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE05A1D4253AB12A0003A101 /* iOSDoMoreTests.swift */; };
 		AE05A1E0253AB12A0003A101 /* iOSDoMoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE05A1DF253AB12A0003A101 /* iOSDoMoreUITests.swift */; };
+		AE05A1F7253AB1740003A101 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE05A1F5253AB1740003A101 /* HomeViewController.swift */; };
+		AE05A1F8253AB1740003A101 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE05A1F6253AB1740003A101 /* HomeViewController.xib */; };
+		AE05A21C253AD4F70003A101 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE05A21A253AD4F70003A101 /* ScrollViewController.swift */; };
+		AE05A21D253AD4F70003A101 /* ScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE05A21B253AD4F70003A101 /* ScrollViewController.xib */; };
+		AE05A223253AD66C0003A101 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE05A222253AD66C0003A101 /* Item.swift */; };
+		AE05A22A253AD6AD0003A101 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE05A228253AD6AD0003A101 /* ItemCollectionViewCell.swift */; };
+		AE05A22B253AD6AD0003A101 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE05A229253AD6AD0003A101 /* ItemCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,6 @@
 		AE05A1B7253AB1240003A101 /* iOSDoMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDoMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE05A1BA253AB1250003A101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE05A1BC253AB1250003A101 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE05A1BE253AB1250003A101 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE05A1C1253AB1250003A101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE05A1C4253AB1250003A101 /* iOSDoMore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSDoMore.xcdatamodel; sourceTree = "<group>"; };
 		AE05A1C6253AB1290003A101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		AE05A1DB253AB12A0003A101 /* iOSDoMoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDoMoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE05A1DF253AB12A0003A101 /* iOSDoMoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDoMoreUITests.swift; sourceTree = "<group>"; };
 		AE05A1E1253AB12A0003A101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE05A1F5253AB1740003A101 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AE05A1F6253AB1740003A101 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		AE05A21A253AD4F70003A101 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		AE05A21B253AD4F70003A101 /* ScrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewController.xib; sourceTree = "<group>"; };
+		AE05A222253AD66C0003A101 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AE05A228253AD6AD0003A101 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE05A229253AD6AD0003A101 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +113,13 @@
 		AE05A1B9253AB1240003A101 /* iOSDoMore */ = {
 			isa = PBXGroup;
 			children = (
+				AE05A227253AD6860003A101 /* cells */,
+				AE05A221253AD6590003A101 /* models */,
+				AE05A1F4253AB15B0003A101 /* controllers */,
+				AE05A1F0253AB13B0003A101 /* apputils */,
 				AE05A1BA253AB1250003A101 /* AppDelegate.swift */,
 				AE05A1BC253AB1250003A101 /* SceneDelegate.swift */,
-				AE05A1BE253AB1250003A101 /* ViewController.swift */,
-				AE05A1C0253AB1250003A101 /* Main.storyboard */,
-				AE05A1C6253AB1290003A101 /* Assets.xcassets */,
-				AE05A1C8253AB1290003A101 /* LaunchScreen.storyboard */,
 				AE05A1CB253AB1290003A101 /* Info.plist */,
-				AE05A1C3253AB1250003A101 /* iOSDoMore.xcdatamodeld */,
 			);
 			path = iOSDoMore;
 			sourceTree = "<group>";
@@ -129,6 +140,45 @@
 				AE05A1E1253AB12A0003A101 /* Info.plist */,
 			);
 			path = iOSDoMoreUITests;
+			sourceTree = "<group>";
+		};
+		AE05A1F0253AB13B0003A101 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				AE05A1C3253AB1250003A101 /* iOSDoMore.xcdatamodeld */,
+				AE05A1C6253AB1290003A101 /* Assets.xcassets */,
+				AE05A1C8253AB1290003A101 /* LaunchScreen.storyboard */,
+				AE05A1C0253AB1250003A101 /* Main.storyboard */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		AE05A1F4253AB15B0003A101 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE05A1F5253AB1740003A101 /* HomeViewController.swift */,
+				AE05A1F6253AB1740003A101 /* HomeViewController.xib */,
+				AE05A21A253AD4F70003A101 /* ScrollViewController.swift */,
+				AE05A21B253AD4F70003A101 /* ScrollViewController.xib */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		AE05A221253AD6590003A101 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				AE05A222253AD66C0003A101 /* Item.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		AE05A227253AD6860003A101 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				AE05A228253AD6AD0003A101 /* ItemCollectionViewCell.swift */,
+				AE05A229253AD6AD0003A101 /* ItemCollectionViewCell.xib */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +286,10 @@
 			files = (
 				AE05A1CA253AB1290003A101 /* LaunchScreen.storyboard in Resources */,
 				AE05A1C7253AB1290003A101 /* Assets.xcassets in Resources */,
+				AE05A21D253AD4F70003A101 /* ScrollViewController.xib in Resources */,
+				AE05A22B253AD6AD0003A101 /* ItemCollectionViewCell.xib in Resources */,
 				AE05A1C2253AB1250003A101 /* Main.storyboard in Resources */,
+				AE05A1F8253AB1740003A101 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE05A1BF253AB1250003A101 /* ViewController.swift in Sources */,
 				AE05A1BB253AB1250003A101 /* AppDelegate.swift in Sources */,
 				AE05A1BD253AB1250003A101 /* SceneDelegate.swift in Sources */,
+				AE05A21C253AD4F70003A101 /* ScrollViewController.swift in Sources */,
 				AE05A1C5253AB1250003A101 /* iOSDoMore.xcdatamodeld in Sources */,
+				AE05A223253AD66C0003A101 /* Item.swift in Sources */,
+				AE05A1F7253AB1740003A101 /* HomeViewController.swift in Sources */,
+				AE05A22A253AD6AD0003A101 /* ItemCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
